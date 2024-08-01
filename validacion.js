@@ -14,7 +14,7 @@ const getMensaje = () => {
         }
     };
 
-    http.open('GET', 'http://localhost/diplomatura/mensaje.txt', true);
+    http.open('GET', 'https://tp-obligatorio-6mjz.vercel.app/mensaje.txt', true);
     http.send();
 };
 
